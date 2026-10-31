@@ -172,9 +172,9 @@ MATLAB was used to generate a reference 50 Hz AC voltage waveform and several re
 
 The reference signal is defined by:
 
-\[
+$$
 v(t)=V_m\sin(2\pi ft)
-\]
+$$
 
 The simulation uses the following parameters:
 
@@ -197,19 +197,19 @@ Five operating conditions were prepared for the Python analysis and machine-lear
 
 A sinusoidal AC waveform representing the reference operating condition.
 
-**Voltage Sag**
+**_Voltage Sag_**
 
 A temporary reduction in voltage amplitude to 50% of its normal value between 0.04 s and 0.08 s.
 
-**Voltage Swell**
+**_Voltage Swell_**
 
 A temporary increase in voltage amplitude to 150% of its normal value over the same interval.
 
-**Voltage Interruption**
+**_Voltage Interruption_**
 
 A temporary reduction of the voltage waveform to zero between 0.04 s and 0.08 s.
 
-**Electrical Transient**
+**_Electrical Transient_**
 
 A damped, high-frequency oscillation superimposed on the fundamental waveform, beginning at approximately 0.04 s. The reference transient contains a 1,000 Hz oscillatory component.
 
@@ -262,15 +262,15 @@ Several numerical characteristics are calculated from each waveform, including:
 
 RMS voltage is calculated as:
 
-\[
+$$
 V_{\mathrm{RMS}}=\sqrt{\frac{1}{N}\sum_{n=0}^{N-1}v[n]^2}
-\]
+$$
 
 Crest factor is defined as:
 
-\[
+$$
 \mathrm{Crest\ Factor}=\frac{V_{\mathrm{peak}}}{V_{\mathrm{RMS}}}
-\]
+$$
 
 These measurements help describe the overall magnitude and shape of a waveform.
 
@@ -509,9 +509,9 @@ This difference provides a useful basis for an additional detection method.
 
 To quantify the localization, an energy concentration ratio is calculated:
 
-\[
+$$
 C=\frac{\max(E(t))}{\operatorname{mean}(E(t))+\varepsilon}
-\]
+$$
 
 where:
 
