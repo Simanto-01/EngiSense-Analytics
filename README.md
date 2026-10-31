@@ -202,25 +202,26 @@ The 0.1-second observation window contains five complete cycles of the 50 Hz wav
 
 Five electrical conditions were prepared for the Python analysis and machine-learning workflow.
 
-**Normal Voltage**
+**_Normal Voltage_**
 
 A sinusoidal AC waveform representing the reference operating condition.
 
-**Voltage Sag**
+**_Voltage Sag_**
 
 A temporary reduction in voltage amplitude to 50% of its normal value between 0.04 s and 0.08 s.
 
-**Voltage Swell**
+**_Voltage Swell_**
 
 A temporary increase in voltage amplitude to 150% of its normal value over the same interval.
 
-**Voltage Interruption**
+**_Voltage Interruption_**
 
 A temporary reduction of the voltage waveform to zero between 0.04 s and 0.08 s.
 
-**Electrical Transient**
+**_Electrical Transient_**
 
-A damped high-frequency oscillation superimposed on the fundamental waveform, beginning at approximately 0.04 s. The reference transient includes a 1,000 Hz oscillatory component.
+A damped high-frequency oscillation superimposed on the fundamental waveform, 
+beginning at approximately 0.04 s. The reference transient includes a 1,000 Hz oscillatory component.
 
 ### 3.3 Waveform Comparison
 
@@ -570,9 +571,7 @@ This difference provides the basis for the additional detector.
 An energy concentration ratio is used to describe how strongly the high-frequency energy is localized:
 
 $$
-C =
-\frac{\max(E(m))}
-{\operatorname{mean}(E(m))+\varepsilon}
+C = \frac{E_{\max}}{E_{\mathrm{avg}} + \varepsilon}
 $$
 
 where:
