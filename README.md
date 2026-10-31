@@ -699,20 +699,17 @@ The dashboard uses previously generated datasets and reports. It does not retrai
 streamlit run engisense_dashboard.py
 ```
 
-The local application is normally available at:
+The dashboard is normally available locally at:
 
 `http://localhost:8501`
 
 ### Public Deployment
 
-EngiSense Analytics is being prepared for deployment through Streamlit Community Cloud.
+EngiSense Analytics V1 is deployed on Streamlit Community Cloud and is publicly accessible.
 
-**Planned public address:**
+**[EngiSense Analytics Dashboard](https://engisense-analytic.streamlit.app/)**
 
-`https://engisense-analytics.streamlit.app`
-
-This address should be considered provisional until deployment is completed and the subdomain is confirmed.
-
+The dashboard provides interactive access to ESP32 sensor measurements, MATLAB power-quality waveforms, signal-processing visualizations, machine-learning classification results, and transient detection.
 ---
 
 ## 9. Project Structure
