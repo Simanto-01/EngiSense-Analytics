@@ -1,0 +1,6 @@
+signal_type,accuracy_percent,correct,total
+Normal,0.0,0,100
+Sag,0.0,0,100
+Swell,100.0,100,100
+Interruption,100.0,100,100
+Transient,100.0,100,100

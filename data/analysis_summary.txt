@@ -1,0 +1,7 @@
+EngiSense Analytics Report
+-------------------------
+Total samples: 52
+Recording duration: 102.41 seconds
+Sampling frequency: 0.498 Hz
+Mean voltage: 1.477 V
+Overall validation: PASS

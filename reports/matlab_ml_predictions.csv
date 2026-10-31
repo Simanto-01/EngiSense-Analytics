@@ -1,0 +1,6 @@
+expected,predicted,correct
+Normal,Normal,True
+Sag,Sag,True
+Swell,Swell,True
+Interruption,Interruption,True
+Transient,Transient,True
